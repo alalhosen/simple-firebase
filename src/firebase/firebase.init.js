@@ -1,4 +1,4 @@
-// Do not store config on the clint side
+// Do not store config on the client side
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
