@@ -1,7 +1,10 @@
 const Login = () => {
+  const handleGoogleSignIn = () => {
+    console.log("google coming soon");
+  };
   return (
     <div>
-      <button>Login with Goole</button>
+      <button onClick={handleGoogleSignIn}>Login with Google</button>
     </div>
   );
 };
