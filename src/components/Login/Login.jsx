@@ -1,6 +1,13 @@
+import { signInWithPopup } from "firebase/auth";
+import { GoogleAuthProvider } from "firebase/auth/web-extension";
+import auth from "../../firebase/firebase.init";
+
 const Login = () => {
+
+const provider=new GoogleAuthProvider();
+
   const handleGoogleSignIn = () => {
-    console.log("google coming soon");
+    signInWithPopup(auth)
   };
   return (
     <div>
